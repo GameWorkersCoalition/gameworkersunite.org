@@ -1,0 +1,58 @@
+:root {
+  --DarkGray: #3f3e3e;
+  --OffWhite: #fffaf0;
+  --Accent: #dc143c;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('fonts/subset-WorkSans-Bold.woff2') format('woff2'),
+      url('fonts/subset-WorkSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('fonts/subset-WorkSans-Regular.woff2') format('woff2'),
+      url('fonts/subset-WorkSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+	font-family: Work Sans,sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+	background-color: var(--DarkGray);
+	color: var(--OffWhite);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 800px;
+}
+
+a {
+	display: inline-block;
+	padding: 0 0.25em;
+	color: var(--DarkGray);
+	text-decoration: none;
+	background-color: var(--OffWhite);
+}
+
+a:focus, a:hover {
+	color: var(--OffWhite);
+	background-color: var(--Accent);
+}
