@@ -6,8 +6,7 @@
 
 @font-face {
   font-family: 'Work Sans';
-  src: url('fonts/subset-WorkSans-Bold.woff2') format('woff2'),
-      url('fonts/subset-WorkSans-Bold.woff') format('woff');
+  src: url('fonts/subset-WorkSans-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -15,22 +14,21 @@
 
 @font-face {
   font-family: 'Work Sans';
-  src: url('fonts/subset-WorkSans-Regular.woff2') format('woff2'),
-      url('fonts/subset-WorkSans-Regular.woff') format('woff');
+  src: url('fonts/subset-WorkSans-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 html {
-	font-family: Work Sans,sans-serif;
+  font-family: Work Sans, sans-serif;
   font-size: 18px;
   line-height: 1.6;
 }
 
 body {
-	background-color: var(--DarkGray);
-	color: var(--OffWhite);
+  background-color: var(--DarkGray);
+  color: var(--OffWhite);
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -45,14 +43,14 @@ body {
 }
 
 a {
-	display: inline-block;
-	padding: 0 0.25em;
-	color: var(--DarkGray);
-	text-decoration: none;
-	background-color: var(--OffWhite);
+  display: inline-block;
+  padding: 0 0.25em;
+  color: var(--DarkGray);
+  text-decoration: none;
+  background-color: var(--OffWhite);
 }
 
 a:focus, a:hover {
-	color: var(--OffWhite);
-	background-color: var(--Accent);
+  color: var(--OffWhite);
+  background-color: var(--Accent);
 }
